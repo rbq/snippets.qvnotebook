@@ -1,0 +1,10 @@
+{
+  "title": "Word-count LaTeX document with includes",
+  "cells": [
+    {
+      "type": "code",
+      "language": "sh",
+      "data": "texcount -utf8 -inc -total $FILENAME.tex\n"
+    }
+  ]
+}
